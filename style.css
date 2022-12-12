@@ -290,7 +290,7 @@ svg, path {
     align-items: center;
     justify-content: center;
 }
-.social:active {
+.social:hover {
     cursor: pointer;
 }
 .social:active {
