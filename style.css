@@ -74,10 +74,13 @@ header {
     font-weight: 700;
     box-shadow: 0px 4px 17px -5px rgba(66, 68, 90, 0.32);
  }
- .btn:hover {
+.btn:hover {
     cursor: pointer;
 }
- .try-it-free-btn:hover {
+ .btn:active {
+    cursor: pointer;
+}
+ .try-it-free-btn:active {
     color:  hsla(192, 100%, 9%, 50%);
  }
  .heading-info {
@@ -102,7 +105,7 @@ h1 {
     justify-content: center;
     box-shadow: 0px 9px 32px -19px rgba(255, 81, 187, 1);
 }
-.get-started-for-free-btn:hover {
+.get-started-for-free-btn:active {
     background-color: hsla(322, 100%, 66%, 50%);
 }
 .heading-btn {
@@ -247,7 +250,11 @@ svg, path {
 .footer-menu-item {
     height: fit-content;
 }
+
 .footer-menu-item:hover {
+    cursor: pointer;
+}
+.footer-menu-item:active {
     cursor: pointer;
     text-decoration: underline;
 }
@@ -283,7 +290,10 @@ svg, path {
     align-items: center;
     justify-content: center;
 }
-.social:hover {
+.social:active {
+    cursor: pointer;
+}
+.social:active {
     cursor: pointer;
     color: var(--Pink);
     border-color: var(--Pink);
